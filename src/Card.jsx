@@ -11,7 +11,7 @@ const Card = () => {
       <Title />
       <Count count={count} />
       <ResetButton setCount={setCount} />
-      <CountButtons count={count} setCount={setCount} />
+      <CountButtons setCount={setCount} />
     </div>
   );
 };
